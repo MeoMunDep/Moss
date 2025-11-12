@@ -82,18 +82,22 @@ create_default_configs() {
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 1,
-  
+
   "doTasks": true,
+
+  "bindReferralCode": {
+    "enabled": true,
+    "codes": ["EYG3CP8I"]
+  },
 
   "tradeSettings": {
     "enabled": true,
     "pairs": ["BTC", "ETH", "SOL"],
-    "marginAmount": [1, 3],
+    "marginAmount": [10, 20],
     "countPerSession": [10, 20],
     "balanceReservePercent": 10,
     "longShortBias": 0.55,
-    "cooldown": [5, 10],
-    "maxConcurrentTrades": 5
+    "maxConcurrentTrades": 1
   },
 
   "chatWithAi": {
