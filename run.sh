@@ -82,7 +82,18 @@ create_default_configs() {
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 1,
-  "doTasks": true
+  "doTasks": true,
+
+  "btcTrading": {
+    "enabled": true,
+    "marginAmount": [1, 2],
+    "count": [10, 20]
+  },
+
+  "chatWithAi": {
+    "enabled": true,
+    "amount": [10, 20],
+  }
 }
 EOL
 }
