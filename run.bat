@@ -1,4 +1,3 @@
-
 @echo off
 title Moss Bot by @MeoMunDep
 color 0A
